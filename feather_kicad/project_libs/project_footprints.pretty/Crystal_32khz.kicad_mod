@@ -1,0 +1,11 @@
+(module CFS-206 (layer F.Cu) (tedit 54D2B13F)
+  (fp_text reference X103 (at -2.55 -2.025) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 32.768kHz (at -83.625 64.9) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad GND smd rect (at -2.5 0) (size 5 2) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 4.5 -0.75) (size 3 0.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 4.5 0.75) (size 3 0.5) (layers F.Cu F.Paste F.Mask))
+)

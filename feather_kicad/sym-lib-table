@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name AP2112k)(type Legacy)(uri ${KIPRJMOD}/project_libs/AP2112k.lib)(options "")(descr ""))
+  (lib (name project_lib)(type Legacy)(uri ${KIPRJMOD}/project_libs/project_lib.lib)(options "")(descr ""))
+  (lib (name MPM36XX)(type Legacy)(uri ${KIPRJMOD}/project_libs/MPM36XX.lib)(options "")(descr ""))
+)

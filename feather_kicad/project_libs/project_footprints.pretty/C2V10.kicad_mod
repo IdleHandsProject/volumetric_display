@@ -1,0 +1,18 @@
+(module C2V10 (layer F.Cu) (tedit 54D2B18D)
+  (descr "Condensateur polarise")
+  (tags CP)
+  (fp_text reference C208 (at -8.05 -2.9) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value 10u (at -57.5 21.925) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_circle (center 0 0) (end 4.826 -2.794) (layer F.SilkS) (width 0.3048))
+  (pad 1 thru_hole rect (at -2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (model discret/c_vert_c2v10.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

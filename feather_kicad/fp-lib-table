@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name project_footprints)(type KiCad)(uri "$(KIPRJMOD)/project_libs/project_footprints.pretty")(options "")(descr ""))
+  (lib (name Adafruit_FeatherWing)(type KiCad)(uri ${KIPRJMOD}/project_libs/Adafruit_FeatherWing.pretty)(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri ${KIPRJMOD}/project_libs/logos.pretty)(options "")(descr ""))
+)
