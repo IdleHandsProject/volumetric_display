@@ -124,7 +124,7 @@ void loop() {
   az = (az >= 3) ? 1 : 4 - az;      // Clip & invert
   ax -= az;                         // Subtract motion factor from X, Y
   ay -= az;
-  long az2 = az * 2 + 1;         // Range of random motion to add back in
+  long az2 = (az<<1) + 1;         // Range of random motion to add back in
 
 
   int32_t v2; // Velocity squared
