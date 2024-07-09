@@ -1,0 +1,20 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digikey Part No.
+1,"Unpolarized capacitor, small symbol",C_Small,C3 C6 C8 C12 C15 C17 C24 C30,0.1uF,C_0805_2012Metric,8,~,311-4348-1-ND
+2,"Unpolarized capacitor, small symbol",C_Small,C4 C7 C9 C10 C13 C16 C19 C22 C25 C28 C31,4.7uF,C_0805_2012Metric,11,~,311-3509-2-ND
+3,"Unpolarized capacitor, small symbol",C_Small,C1 C5 C11 C14 C23 C29,10uF,C_0805_2012Metric,6,~,311-1869-1-ND
+4,"Unpolarized capacitor, small symbol",C_Small,C2,22uF,C_0805_2012Metric,1,~,311-1464-1-ND
+5,"Schottky diode, small symbol",D_Schottky_Small,D1,RB521S30T1G,D_SOD-523,1,~,NSVRB521S30T1GOSCT-ND
+6,DC Barrel Jack with an internal switch,Barrel_Jack_Switch,J1,Barrel_Jack_Switch,BarrelJack_Wuerth_6941xx301002,1,~,732-5930-ND
+7,Crystal speaker/transducer,Speaker_Crystal,LS1,Speaker_Crystal,Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm,1,~,445-2525-1-ND
+8,"Resistor, small symbol",R_Small,R29,470R,R_0805_2012Metric,1,~,311-470ARCT-ND
+9,"Resistor, small symbol",R_Small,R26 R27 R28,4.7K,R_0805_2012Metric,3,~,YAG3364CT-ND
+10,,R_Small,R20,24K,R_0805_2012Metric,1,,13-AC0805FR-0724KLCT-ND
+11,,R_Small,R18,75K,R_0805_2012Metric,1,,13-RT0805FRE0775KLCT-ND
+12,"Resistor, small symbol",R_Small,R2 R3 R4 R5 R6 R7 R8 R9 R10 R11,100K,R_0805_2012Metric,10,~,RMCF0805FG100KCT-ND
+13,,R_Small,R17 R19,100K,R_0805_2012Metric,2,,RMCF0805FG100KCT-ND
+14,"Resistor, small symbol",R_Small,R1,5.1K 1%,R_0805_2012Metric,1,~,311-5.10KCRCT-ND
+15,"Resistor, small symbol",R_Small,R12 R13 R14 R15 R16 R21 R22 R23 R24 R25,910K 1%,R_0805_2012Metric,10,~,YAG3336CT-ND
+16,,MPM36XX,U7,MPM36XX,MPM3606AGQV-Z,1,https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM3606AGQV/document_id/2104,1589-1247-1-ND
+17,"InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C",MPU-6050,U13,MPU-6050,InvenSense_QFN-24_4x4mm_P0.5mm,1,https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf,1428-1007-1-ND
+18,,SSD1309_transparent_oled,U2 U3 U4 U5 U6 U8 U9 U10 U11 U12,SSD1309_transparent_oled,FCI_62674-241121ALF,10,,609-1210-1-ND
+19,,feather,U1,feather,PCB_FeatherWing,1,,1528-2648-ND
